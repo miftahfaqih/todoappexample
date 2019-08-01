@@ -1,2 +1,3 @@
 # todoappexample
-todoapp
+create todoapp based on googlesamples
+
