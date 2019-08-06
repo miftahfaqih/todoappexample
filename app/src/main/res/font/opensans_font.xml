@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<?xml version="1.0" encoding="utf-8"?>
+<!--
   ~ Copyright (C) 2019 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,15 +15,13 @@
   ~ limitations under the License.
   -->
 
-<resources>
-    <color name="colorPrimary">#FFFFF0</color>
-    <color name="colorPrimaryDark">#263238</color>
-    <color name="colorAccent">#2E7D32</color>
-    <color name="colorTextPrimary">#000000</color>
-    <color name="colorGrey">#757575</color>
-
-    <drawable name="completedTaskBackground">#CCCCCC</drawable>
-
-    <drawable name="touchFeedback">#CFD8DC</drawable>
-
-</resources>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="400"
+        app:font="@font/opensans_regular" />
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="700"
+        app:font="@font/opensans_semibold" />
+</font-family>

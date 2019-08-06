@@ -50,4 +50,26 @@ interface TasksDao {
     @Query("UPDATE tasks SET completed = :completed WHERE entryId= :taskId")
     suspend fun updateCompleted(taskId: String, completed: Boolean)
 
+    /**
+     * delete task by id
+     *
+     * @return the number of task deleted. This should always be 1
+     */
+    @Query("DELETE FROM tasks WHERE entryId = :taskId")
+    suspend fun deleteTaskById(taskId: String)
+
+    /**
+     * delete all task
+     */
+    @Query("DELETE FROM tasks")
+    suspend fun deleteTask()
+
+    /**
+     * delete all complete tasks from the table
+     *
+     * @return the number of tasks deleted
+     */
+    @Query("DELETE FROM tasks WHERE completed = 1")
+    suspend fun deleteCompletedTasks(): Int
+
 }

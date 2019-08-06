@@ -14,15 +14,14 @@
   ~ limitations under the License.
   -->
 
-<resources>
-    <color name="colorPrimary">#FFFFF0</color>
-    <color name="colorPrimaryDark">#263238</color>
-    <color name="colorAccent">#2E7D32</color>
-    <color name="colorTextPrimary">#000000</color>
-    <color name="colorGrey">#757575</color>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <drawable name="completedTaskBackground">#CCCCCC</drawable>
-
-    <drawable name="touchFeedback">#CFD8DC</drawable>
-
-</resources>
+<!--    <item
+        android:id="@id/tasksFragment"
+        android:icon="@drawable/ic_list"
+        android:title="@string/list_title" />
+    <item
+        android:id="@id/statisticsFragment"
+        android:icon="@drawable/ic_statistics"
+        android:title="@string/statistics_title" />-->
+</menu>

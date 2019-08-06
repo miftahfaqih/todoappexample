@@ -13,16 +13,14 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-
-<resources>
-    <color name="colorPrimary">#FFFFF0</color>
-    <color name="colorPrimaryDark">#263238</color>
-    <color name="colorAccent">#2E7D32</color>
-    <color name="colorTextPrimary">#000000</color>
-    <color name="colorGrey">#757575</color>
-
-    <drawable name="completedTaskBackground">#CCCCCC</drawable>
-
-    <drawable name="touchFeedback">#CFD8DC</drawable>
-
-</resources>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/all"
+        android:title="@string/nav_all" />
+    <item
+        android:id="@+id/active"
+        android:title="@string/nav_active" />
+    <item
+        android:id="@+id/completed"
+        android:title="@string/nav_completed" />
+</menu>

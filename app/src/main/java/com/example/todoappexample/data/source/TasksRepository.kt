@@ -3,7 +3,7 @@ package com.example.todoappexample.data.source
 import com.example.todoappexample.data.Task
 import com.example.todoappexample.data.Result
 
-interface TaskRepository {
+interface TasksRepository {
     suspend fun getTasks(forceUpdate: Boolean = false): Result<List<Task>>
 
     suspend fun getTask(taskId: String, forceUpdate: Boolean = false) : Result<Task>

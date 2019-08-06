@@ -3,12 +3,11 @@ package com.example.todoappexample.data.source.remote
 import com.example.todoappexample.data.Result
 import com.example.todoappexample.data.Result.Success
 import com.example.todoappexample.data.Task
-import com.example.todoappexample.data.source.TaskDataSource
+import com.example.todoappexample.data.source.TasksDataSource
 import kotlinx.coroutines.delay
-import java.lang.Error
 import java.lang.Exception
 
-object TaskRemoteDataSource : TaskDataSource {
+object TasksRemoteDataSource : TasksDataSource {
 
     private const val SERVICE_LATENCY_IN_MILLIS = 2000L
 
